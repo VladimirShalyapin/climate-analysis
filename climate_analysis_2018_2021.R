@@ -62,6 +62,11 @@ summary(precipitation_amount_2018_2019)
 summary(precipitation_amount_2019_2020)
 summary(precipitation_amount_2019_2020)
 summary(precipitation_amount_average_annual)
+sum(data$precipitation_amount)
+sum(precipitation_amount_2018_2019)
+sum(precipitation_amount_2019_2020)
+sum(precipitation_amount_2019_2020)
+sum(precipitation_amount_average_annual)
 
 # Считаем линейную регрессию 2018-2019
 data <- data.frame(list(air_temperature_2018_2019, precipitation_amount_2018_2019))
